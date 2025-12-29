@@ -1,3 +1,4 @@
+```python
 def register():
     username = input("Enter username: ")
     if username in users:
@@ -11,3 +12,4 @@ def register():
     users[username] = {"password": password}
     print("Registration successful")
     return username
+```
